@@ -1,10 +1,11 @@
-#ASCII Art Editor
+ASCII Art Editor
+
 This is a Python application that allows you to create ASCII art from an image using a graphical user interface (GUI). The application utilizes the Tkinter library for the GUI components and the PIL library for image processing.
 1. Author: _Avanish Kumar Singh_
 2. Date: 28-05-2023
 3. Matriculation Number: _22200727_
 
-##Features
+Features
 1. Select an image file from your local system.
 2. Specify the character width, height, font size, grayscale method, and character set for generating ASCII art.
 3. View the generated ASCII art in a text display area.
@@ -12,13 +13,13 @@ This is a Python application that allows you to create ASCII art from an image u
 5. Generate ASCII art by comparing each character image in the character set with the corresponding region in the image and selecting the character with the lowest distance.
 6. Save the generated ASCII art as a text file.
 
-##Requirements
+Requirements
 1. Python 3.x
 2. Tkinter
 3. PIL (Python Imaging Library)
 4. numpy
 
-##How to Use
+How to Use
 1. Ensure that you have Python installed on your system.
 2. Install the necessary libraries by running the following command:
 ```
@@ -39,8 +40,10 @@ python ascii_art_editor.py
 Note: The application currently supports image file types including .jpg, .jpeg, .png, .gif, and .bmp.
 ```
 
-##Acknowledgements
+Acknowledgements
+
 This application is based on the ASCIIArtEditor class, which was developed using the Tkinter library, threading module, PIL (Python Imaging Library), and numpy library.
 
-##License
+License
+
 This code is licensed under the **MIT License**.
